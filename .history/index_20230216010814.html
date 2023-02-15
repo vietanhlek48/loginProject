@@ -13,9 +13,8 @@
         <div class="form-box">
             <h1 id="title">Sign Up</h1>
             <form>
-                <div class="input-group" >
-
-                    <div class="input-field" id="nameField">
+                <div class="input-group" id="nameField">
+                    <div class="input-field">
                         <i class="fa-solid fa-user"></i>
                         <input type="text" placeholder="name">
                     </div>
@@ -35,10 +34,9 @@
 
 
                 <div class="btn-field">
-                    <button type="button" id="signUpBtn" >Sign up</button>
-                    <button type="button" id="signInBtn" class="disable">Sign in</button>
+                    <button typpe="button" id="signInBtn" class="disable">Sign in</button>
+                    <button typpe="button" id="signUpBtn" >Sign up</button>
                 </div>
-
             </form>
         </div>
 
@@ -46,27 +44,8 @@
 
 
 <script>
- let signUpBtn = document.getElementById("signUpBtn");
- let signIpBtn = document.getElementById("signInBtn");
- let nameField = document.getElementById("nameField");
- let title = document.getElementById("title");
+ let signUpBtn = document.getElementById("signUpBtn")
  
-
- signInBtn.onclick = function(){
-    nameField.style.maxHeight = "0";
-    title.innerHTML = "Sign In";
-    signUpBtn.classList.add("disable");
-    signUpBtn.classList.remove("disable");
- }
- 
- signUpBtn.onclick = function(){
-    nameField.style.maxHeight = "60px";
-    title.innerHTML = "Sign Up";
-    signUpBtn.classList.remove("disable");
-    signUpBtn.classList.add("disable");
- }
-
 </script>
-
 </body>
 </html>
