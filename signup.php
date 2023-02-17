@@ -1,5 +1,5 @@
 <?php  include "functions/db.php"; ?>
-<?php include "functions/funtion.php";
+<?php include "functions/addUsers.php";
 createUser();
 ?>
 
