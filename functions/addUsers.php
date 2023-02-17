@@ -45,7 +45,11 @@
 
                 //result
                 if(mysqli_query($connection, $query)){
-                    echo "<script type='text/javascript'>alert('Successful')</script>";
+                    echo "<script>
+                            alert('visit deleted successfully');
+                            window.location.href='index.php';
+                            </script>";
+                    die();
                 } else {
                     echo "<script type='text/javascript'>alert('Somethings went wrong!')</script>";
                 }

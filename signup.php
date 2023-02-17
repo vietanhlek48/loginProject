@@ -24,7 +24,7 @@ include "includes/header.php";?>
                </div>
                <div class="btn">
                   <div class="inner"></div>
-                  <button type="submit" name="submit" value="submit">login</button>
+                  <button type="submit" name="submit" value="submit">Sign Up</button>
                </div>
                <div class="signup-link">
                   Already a member? <a href="index.php">Sign In Now</a>

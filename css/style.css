@@ -70,16 +70,6 @@ form .forgot-pass a:hover{
   text-decoration: underline;
 }
 
-form .dont-have-acc{
-  margin-top: -8px;
-}
-form .dont-have-acc a{
-  color: #3498db;
-  text-decoration: none;
-}
-form .dont-have-acc a:hover{
-  text-decoration: underline;
-}
 form .btn{
   margin: 30px 0;
   height: 45px;
