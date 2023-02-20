@@ -29,9 +29,9 @@
 
             foreach($error as $key => $value ){
                 
-                if(empty($value)){
-                    unset($error[$key]);
-                      
+                if(empty($value)){                    
+                    echo '<p>' . $key . ': ' . implode(' ', $error) . '</p>';  
+                                                          
                 }
                 
 
